@@ -1,0 +1,107 @@
+body{
+    background-color:rgba(255, 255, 255, 0.241);
+     background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   font-family: 'Roboto', sans-serif;
+}
+.wd{
+    -webkit-user-select: none;
+}
+
+
+.custom-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+nav ul .a,a{
+    color: white;
+}
+#service{
+    background: #ff00cc; 
+background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+background: linear-gradient(to right, #333399, #ff00cc);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+#hero1 h1{
+
+    background: #ff00cc; 
+background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+background: linear-gradient(to right, #333399, #ff00cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about1{
+    /* box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #131313; */
+    /* color: red; */
+    border-radius: 0.8rem;
+
+}
+
+button a{
+  text-decoration: none;
+  color: white
+}
+
+button a:hover{
+
+  color: black
+}
+
+.download-button {
+            background-color: #4CAF50; /* Green background */
+            color: white; /* White text */
+            padding: 15px 20px; /* Some padding */
+            text-align: center; /* Centered text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make the link look like a button */
+            font-size: 16px; /* Increase font size */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* No border */
+            cursor: pointer; /* Pointer/hand icon */
+        }
+
+        .download-button:hover {
+            /* background-color: #45a049; */
+            
+             background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  transition: 2s;
+  font-size: bold;
+  border: 2px solid #ff00cc;/* Darker green on hover */
+  color: white;
+        }
+
+
+        nav a:hover{
+    
+     background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 2s;
+  font-size: bold;
+  border: 2px solid #ff00cc;
+
+
+}
+footer{
+    /* background-color: #333399; */
+    background-color:rgba(248, 249, 250, 0.552);
+    height: 5rem;
+}
+
+footer a{
+  padding: 0.5rem;
+}
+
+.img-fluid{
+  box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem #132313 ;
+}

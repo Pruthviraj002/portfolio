@@ -1,0 +1,70 @@
+#hero h1{
+   color: black;
+}
+.custom-toggler {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+
+
+#icon{
+    height: 4rem;
+    width: 5rem;
+     background: #ff00cc; 
+background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+background: linear-gradient(to right, #333399, #ff00cc);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+  color: white;
+  border-radius: 0.8rem;
+}
+
+nav ul .a,a{
+    color: white;
+}
+
+nav a:hover{
+    
+     background: #ff00cc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 2s;
+  font-size: bold;
+  border: 2px solid #ff00cc;
+
+
+}
+
+body{
+  background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   font-family: 'Roboto', sans-serif;
+
+}
+
+
+footer{
+    /* background-color: #333399; */
+    background-color:rgba(248, 249, 250, 0.552);
+    height: 5rem;
+}
+
+footer a{
+  padding: 0.5rem;
+}
+
+.btn:hover{
+  background: #ff00cc; 
+background: -webkit-linear-gradient(to right, #333399, #ff00cc); 
+background: linear-gradient(to right, #333399, #ff00cc);  
+color: white;
+transition: 2s;
+}
+
+
+.wd{
+    -webkit-user-select: none;
+}
